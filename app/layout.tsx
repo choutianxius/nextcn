@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Next.js + TailwindCSS</title>
+        <title>Next.js v15 + TailwindCSS v4 + Shadcn UI</title>
       </head>
       <body>{children}</body>
     </html>
