@@ -9,7 +9,6 @@ export default function Counter() {
   return (
     <Button
       variant={"outline"}
-      className="cursor-pointer"
       onClick={() => setCount((x) => x + 1)}
     >
       Clicked {count} times
