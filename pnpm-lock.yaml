@@ -11,9 +11,6 @@ importers:
       '@radix-ui/react-slot':
         specifier: ^1.1.2
         version: 1.1.2(@types/react@19.0.10)(react@19.0.0)
-      babel-plugin-react-compiler:
-        specifier: 19.0.0-beta-21e868a-20250216
-        version: 19.0.0-beta-21e868a-20250216
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -48,12 +45,15 @@ importers:
       '@types/react-dom':
         specifier: ^19.0.4
         version: 19.0.4(@types/react@19.0.10)
+      babel-plugin-react-compiler:
+        specifier: 19.0.0-beta-21e868a-20250216
+        version: 19.0.0-beta-21e868a-20250216
       postcss:
         specifier: ^8.5.3
         version: 8.5.3
       prettier:
-        specifier: ^3.5.1
-        version: 3.5.1
+        specifier: ^3.5.2
+        version: 3.5.2
       tailwindcss:
         specifier: ^4.0.8
         version: 4.0.8
@@ -515,8 +515,8 @@ packages:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.5.1:
-    resolution: {integrity: sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==}
+  prettier@3.5.2:
+    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -946,7 +946,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier@3.5.1: {}
+  prettier@3.5.2: {}
 
   react-dom@19.0.0(react@19.0.0):
     dependencies:
