@@ -1,5 +1,9 @@
 name: Bump dependency versions
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -21,3 +25,5 @@ jobs:
       - name: Test build
         run: pnpm run build
       - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: update-dependencies-${{ github.run_id }}
